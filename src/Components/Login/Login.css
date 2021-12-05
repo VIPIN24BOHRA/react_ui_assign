@@ -1,0 +1,16 @@
+.login .signup_form button {
+  align-self: center;
+  margin-top: 30px;
+}
+.login .link {
+  text-decoration: none;
+  color: #2b83ea;
+  align-self: flex-end;
+  font-size: 12px;
+}
+.login .signup_form input {
+  padding-bottom: 30px;
+}
+.login .signup_form input::placeholder {
+  color: black;
+}
