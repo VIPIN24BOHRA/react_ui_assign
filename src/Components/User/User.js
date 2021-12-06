@@ -57,18 +57,18 @@ export default function User() {
           <h3>Why choose SubSpace?</h3>
           <p>2000+ business trust their payments with SubSpace.</p>
           <div className="img_block">
-            <img src={img1} />
-            <img src={img2} />
-            <img src={img3} />
-            <img src={img4} />
-            <img src={img5} />
-            <img src={img6} />
-            <img src={img7} />
-            <img src={img8} />
-            <img src={img9} />
-            <img src={img10} />
-            <img src={img11} />
-            <img src={img12} />
+            <img src={img1} alt="img" />
+            <img src={img2} alt="img" />
+            <img src={img3} alt="img" />
+            <img src={img4} alt="img" />
+            <img src={img5} alt="img" />
+            <img src={img6} alt="img" />
+            <img src={img7} alt="img" />
+            <img src={img8} alt="img" />
+            <img src={img9} alt="img" />
+            <img src={img10} alt="img" />
+            <img src={img11} alt="img" />
+            <img src={img12} alt="img" />
           </div>
           <p className="para">
             Need help? We are just click away.

@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 import "../Signup/Signup.css";
 export default function Login() {
+  const Navigate = useNavigate();
   const LoginUser = (e) => {
     e.preventDefault();
-
+    Navigate("/dashboard/home");
     alert("user logged in");
   };
   return (

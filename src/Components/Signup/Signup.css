@@ -52,3 +52,15 @@
   align-self: flex-start;
   cursor: pointer;
 }
+.input_password {
+  position: relative;
+}
+.input_password input {
+  width: 100%;
+}
+.eye_icon {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.sidebar {
+  flex-basis: 250px;
+  background-color: #23304c;
+  color: #a8b0bc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.sidebar .sidebar_logo {
+  width: 70%;
+  margin: 20px 0px;
+}
+.links {
+  align-self: flex-start;
+}
+.link_wrapper .link {
+  text-decoration: none;
+  color: #a8b0bc;
+  margin-left: 25px;
+  font-size: 14px;
+}
+.link_wrapper {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.link_logo {
+  width: 13px;
+  height: 13px;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+  transform: translateY(4px);
+}
