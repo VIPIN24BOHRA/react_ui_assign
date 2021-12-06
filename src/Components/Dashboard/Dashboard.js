@@ -10,10 +10,6 @@ export default function Dashboard() {
         <TopNav />
         <Routes>
           <Route
-            path="/home"
-            element={<div className="dashboard_main">Home</div>}
-          ></Route>
-          <Route
             path="/transaction"
             element={<div className="dashboard_main">transaction</div>}
           ></Route>
@@ -52,6 +48,10 @@ export default function Dashboard() {
           <Route
             path="/customers"
             element={<div className="dashboard_main">customers</div>}
+          ></Route>
+          <Route
+            path="/*"
+            element={<div className="dashboard_main">Home</div>}
           ></Route>
         </Routes>
       </div>
